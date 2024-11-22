@@ -1,0 +1,35 @@
+10:06:49.941 [TestNG-test-DSAlgo Testing-2] INFO  testcases.TC002_GetStartedPageValidation - TC002_GetStarted_PageValidation
+10:06:49.944 [TestNG-test-DSAlgo Testing-2] INFO  testcases.TC002_GetStartedPageValidation - Test Successful GetStarted page Launch 
+10:06:49.956 [TestNG-test-DSAlgo Testing-2] INFO  testcases.TC002_GetStartedPageValidation - Test passed
+10:06:51.496 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC002_GetStartedPageValidation - TC001_StackPageValidation
+10:06:51.497 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC002_GetStartedPageValidation - Stack option Validation using stack get started button
+10:06:52.514 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC002_GetStartedPageValidation - Test passed
+10:06:52.745 [TestNG-test-DSAlgo Testing-2] INFO  testcases.TC002_GetStartedPageValidation -  Testing Successful Home page launch
+10:06:53.479 [TestNG-test-DSAlgo Testing-2] INFO  testcases.TC001_StackPageValidation - Test passed
+10:06:57.582 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Stack option Validation using stack dropdown option
+10:06:58.002 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Test passed
+10:07:01.871 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of Operations in stack link
+10:07:06.453 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of  try here button under Operations in stack link
+10:07:08.283 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.286 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.795 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.797 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.823 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.823 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.870 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.870 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.902 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.902 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.933 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.933 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.965 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.965 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:08.988 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:08.996 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:31.481 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of Implementation in stack link
+10:07:35.885 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of try here button under Implementation in stack link
+10:07:37.671 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.674 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.704 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.705 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.723 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels

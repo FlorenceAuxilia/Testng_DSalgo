@@ -1,0 +1,34 @@
+10:07:37.724 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.759 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.760 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.783 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.785 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.815 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.817 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.843 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.844 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:37.872 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:07:37.873 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:07:59.815 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of Applications in stack link
+10:08:04.454 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Verification of try here button under Applications in stack link
+10:08:05.938 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:05.939 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:05.964 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:05.965 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:05.985 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:05.986 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:06.007 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:06.008 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:06.031 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:06.032 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:06.052 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:06.053 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:06.074 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:06.075 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:06.101 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:08:06.102 [TestNG-test-DSAlgo Testing-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:08:27.975 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Practice Questions link validation
+10:08:32.567 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Practice Questions link validation
+10:08:39.948 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Practice Questions link validation
+10:08:44.696 [TestNG-test-DSAlgo Testing-1] INFO  testcases.TC001_StackPageValidation - Practice Questions link validation
+10:08:45.866 [main] INFO  testcases.TC001_StackPageValidation - End of TC001_StackPageValidation

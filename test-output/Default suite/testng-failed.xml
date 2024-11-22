@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC004_HomePageValidation">
+        <methods>
+          <include name="verify_TreeOption"/>
+          <include name="tearDown"/>
+          <include name="verify_Tree_dropdown"/>
+          <include name="verify_QueueOption_Unsuccessful_login"/>
+          <include name="verify_ArrayOption_Unsuccessful_login"/>
+          <include name="verify_LinkedList_dropdown_Unsuccessful_login"/>
+          <include name="verify_Queue_dropdown_Unsuccessful_login"/>
+          <include name="verify_LinkedList_dropdown"/>
+          <include name="verify_dropdown_button_successfullLogin"/>
+          <include name="verify_Graph_dropdown_Unsuccessful_login"/>
+          <include name="verify_registerPage"/>
+          <include name="verify_LinkedListOption_Unsuccessful_login"/>
+          <include name="before_testcase_setup"/>
+          <include name="setup"/>
+          <include name="verify_Array_dropdown"/>
+          <include name="verify_stack_dropdown_Unsuccessful_login"/>
+          <include name="verify_stack_dropdown"/>
+          <include name="verify_GraphOption_Unsuccessful_login"/>
+          <include name="verify_GraphOption"/>
+          <include name="verify_datastructureOption"/>
+          <include name="verify_Queue_dropdown"/>
+          <include name="verify_Tree_dropdown_Unsuccessful_login"/>
+          <include name="verify_datastructureOption_Unsuccessful_login"/>
+          <include name="verify_stackOption"/>
+          <include name="verify_QueueOption"/>
+          <include name="verify_ArrayOption"/>
+          <include name="verify_stackOption_Unsuccessful_login"/>
+          <include name="verify_dropdown_button"/>
+          <include name="verify_LoginPage"/>
+          <include name="verify_TreeOption_Unsuccessful_login"/>
+          <include name="verify_Array_dropdown_Unsuccessful_login"/>
+          <include name="verify_Graph_dropdown"/>
+          <include name="verify_LinkedListOption"/>
+        </methods>
+      </class> <!-- testcases.TC004_HomePageValidation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
