@@ -39,69 +39,69 @@ public void before_testcase_setup() {
 
 
 
-//@Test(priority=1)
-//public void verify_Queue_Getstartedbtn_PageValidation()
-//{
-//	logger.info("TC009_QueuePageValidation");
-//	logger.info("Queue option Validation using Queue get started button");
-//	homepage_obj.click_select_Queue();
-//	if(queuepage_obj.getPageTitle().equals(p.getProperty("QueuePageTitle")))
-//	 {
-//	     	logger.info("Test passed");
-//	    	Assert.assertTrue(true);
-//	 }
-//	 else
-//	 {
-//		logger.error("Test failed..");
-//		logger.debug("Debug logs...");
-//		Assert.assertTrue(false);
-//	 }
-//	}
-//
-//@Test(priority=2)
-//public void verify_QueueOption_Dropdown_PageValidation()
-//{
-//	 logger.info("queue option Validation using Queue dropdown option");
-//	 homepage_obj.click_select_Queue_options();
-//	 if(queuepage_obj.getPageTitle().equals(p.getProperty("QueuePageTitle")))
-//	 {
-//		 logger.info("Test passed");
-//	    	Assert.assertTrue(true);
-//	 }
-//	 else
-//	 {
-//		 logger.error("Test failed..");
-//		logger.debug("Debug logs...");
-//		 Assert.assertTrue(false);
-//	 }
-//	}
-//
-//
-//@Test(dataProvider="Queuetypes", priority = 3)
-//public void verify_Queue_Operations_Link(String type)
-//{
-//	
-//	 logger.info("verification of" + type);
-//	 homepage_obj.click_select_Queue();
-//	 queuepage_obj.ClickQueueLink(type);
-//	 Assert.assertEquals(queuepage_obj.getPageTitle(),type);
-//}
-//
-//
-//
-//
-//@Test(dataProvider = "Queuetypes",priority=4)
-//public void verify_Queue_tryherebtn(String type)
-//{
-//	 logger.info("Verification of  try here button in " + type);
-//	 homepage_obj.click_select_Queue();
-//	 queuepage_obj.ClickQueueLink(type);;
-//	 queuepage_obj.click_tryHere();
-//	 Assert.assertEquals(queuepage_obj.runButtonText(),"Run"); 
-//}
-//
-//
-//
+@Test(priority=1)
+public void verify_Queue_Getstartedbtn_PageValidation()
+{
+	logger.info("TC009_QueuePageValidation");
+	logger.info("Queue option Validation using Queue get started button");
+	homepage_obj.click_select_Queue();
+	if(queuepage_obj.getPageTitle().equals(p.getProperty("QueuePageTitle")))
+	 {
+	     	logger.info("Test passed");
+	    	Assert.assertTrue(true);
+	 }
+	 else
+	 {
+		logger.error("Test failed..");
+		logger.debug("Debug logs...");
+		Assert.assertTrue(false);
+	 }
+	}
+
+@Test(priority=2)
+public void verify_QueueOption_Dropdown_PageValidation()
+{
+	 logger.info("queue option Validation using Queue dropdown option");
+	 homepage_obj.click_select_Queue_options();
+	 if(queuepage_obj.getPageTitle().equals(p.getProperty("QueuePageTitle")))
+	 {
+		 logger.info("Test passed");
+	    	Assert.assertTrue(true);
+	 }
+	 else
+	 {
+		 logger.error("Test failed..");
+		logger.debug("Debug logs...");
+		 Assert.assertTrue(false);
+	 }
+	}
+
+
+@Test(dataProvider="Queuetypes", priority = 3)
+public void verify_Queue_Operations_Link(String type)
+{
+	
+	 logger.info("verification of" + type);
+	 homepage_obj.click_select_Queue();
+	 queuepage_obj.ClickQueueLink(type);
+	 Assert.assertEquals(queuepage_obj.getPageTitle(),type);
+}
+
+
+
+
+@Test(dataProvider = "Queuetypes",priority=4)
+public void verify_Queue_tryherebtn(String type)
+{
+	 logger.info("Verification of  try here button in " + type);
+	 homepage_obj.click_select_Queue();
+	 queuepage_obj.ClickQueueLink(type);;
+	 queuepage_obj.click_tryHere();
+	 Assert.assertEquals(queuepage_obj.runButtonText(),"Run"); 
+}
+
+
+
 
 
 @Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
@@ -140,15 +140,15 @@ public void verify_Queue_pythoncode(String code,String Result)
 	}
 }
 
-//@Test(priority=6)
-//public void verify_practiceQuestions_Link()
-//{
-//	 logger.info("Practice Questions link validation");
-//	 homepage_obj.click_select_Queue();
-//	 queuepage_obj.ClickQueueLink("Implementation of Queue in Python");
-//	 queuepage_obj.ClickQueueLink("Practice Questions");
-//	 Assert.assertTrue(false);
-//}
+@Test(priority=6)
+public void verify_practiceQuestions_Link()
+{
+	 logger.info("Practice Questions link validation");
+	 homepage_obj.click_select_Queue();
+	 queuepage_obj.ClickQueueLink("Implementation of Queue in Python");
+	 queuepage_obj.ClickQueueLink("Practice Questions");
+	 Assert.assertTrue(false);
+}
 
 
 
