@@ -228,7 +228,7 @@ public class TC001_StackPageValidation extends BaseClass{
 			e.printStackTrace();
 		}
 		
-	    }
+	 }
 	
 	@Test(priority=12)
 	public void verify_practiceQuestions_Link()
