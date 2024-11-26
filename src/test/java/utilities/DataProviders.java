@@ -26,6 +26,6 @@ public class DataProviders {
 				System.out.println(code[i-1][j]);
 			}
 		}
-		return code;//return 2D array of login data's
+		return code;//return 2D array
 	}
 }

@@ -10,6 +10,7 @@
     <classes>
       <class name="testcases.TC001_StackPageValidation"/>
       <class name="testcases.TC002_GetStartedPageValidation"/>
+         <class name="testcases.TC003_DataStructureIntroPageValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
