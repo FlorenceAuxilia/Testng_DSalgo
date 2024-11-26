@@ -54,7 +54,7 @@ public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
 public ExtentReports extent;
 
 
-	@BeforeMethod
+	@BeforeMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException
 	{
@@ -84,8 +84,8 @@ public ExtentReports extent;
 		return driver.get();
 	}
 	
-	
-	@AfterMethod
+
+	@AfterMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
 	public void tearDown()
 	{
 		getDriver().quit();
