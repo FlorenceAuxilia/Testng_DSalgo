@@ -24,8 +24,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -43,10 +45,14 @@ public static Logger logger;	//log4j
 public Properties p;
 public DSAlgoGetStartedPom getstartedpage_obj;
 public DSAlgoSignInPom signinpage_obj;
+public DSAlgoLoginPom loginpage_obj;
 public DSAlgoHomePom homepage_obj;
 public DSAlgoStackPom stakpage_obj;
+public DSAlgoQueuePom queuepage_obj;
+public DSAlgoTreePom treepage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
 public ExtentReports extent;
+
 
 	@BeforeMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
 	@Parameters({"browser"})
@@ -70,11 +76,15 @@ public ExtentReports extent;
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		getDriver().get(p.getProperty("appurl"));
 		getDriver().manage().window().maximize();
+		
+		
+		
 	}
 	public static synchronized WebDriver getDriver() {
 		return driver.get();
 	}
 	
+
 	@AfterMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
 	public void tearDown()
 	{
