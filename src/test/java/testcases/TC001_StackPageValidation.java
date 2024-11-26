@@ -27,7 +27,7 @@ public class TC001_StackPageValidation extends BaseClass{
 
 	Actions act; 
 	
-	@BeforeMethod
+	@BeforeMethod(groups= {"Stack","DataDriven","FunctionalTesting"})
 	public void before_testcase_setup() {
 		    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 		    getstartedpage_obj.clickGetStarted();
@@ -42,7 +42,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Getstartedbtn_PageValidation()
 	{
 		
@@ -66,7 +66,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,groups={"Stack","FunctionalTesting"})
 	public void verify_StackOption_Dropdown_PageValidation()
 	{
 		 logger.info("Stack option Validation using stack dropdown option");
@@ -84,7 +84,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 }
 		}
 	
-	@Test(priority=3)
+	@Test(priority=3,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Operations_Link()
 	{
 		
@@ -95,7 +95,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 		
 	}
-	@Test(priority=4)
+	@Test(priority=4,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Operations_tryherebtn_Link()
 	{
 		 logger.info("Verification of  try here button under Operations in stack link");
@@ -105,7 +105,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 Assert.assertEquals(stakpage_obj.click_run(),"Run"); 
 	}
 	
-	@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+	@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven","Stack","FunctionalTesting"})//getting data provider from different class different package
 	public void verify_Stack_Operations_pythoncode(String code,String Result)
 	{
 		try
@@ -134,7 +134,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 	    }
 	
-	@Test(priority=6)
+	@Test(priority=6,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Implementation_Link()
 	{
 		
@@ -143,7 +143,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 stakpage_obj.click_implementation();
 		 Assert.assertEquals(stakpage_obj.get_implementation_title(),p.getProperty("stack_link2"));	
 	}
-	@Test(priority=7)
+	@Test(priority=7,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Implementation_tryherebtn_Link()
 	{
 		 logger.info("Verification of try here button under Implementation in stack link");
@@ -153,7 +153,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 Assert.assertEquals(stakpage_obj.click_run(),"Run"); 
 	}
 	
-	@Test(priority=8,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+	@Test(priority=8,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven","Stack","FunctionalTesting"})//getting data provider from different class different package
 	public void verify_Stack_Implementation_pythoncode(String code,String Result)
 	{
 		try
@@ -182,7 +182,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 	    }
 	
-	@Test(priority=9)
+	@Test(priority=9,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Applications_Link()
 	{
 		
@@ -191,7 +191,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 stakpage_obj.click_applications();
 		 Assert.assertEquals(stakpage_obj.get_applications_title(),p.getProperty("stack_link3"));	
 	}
-	@Test(priority=10)
+	@Test(priority=10,groups={"Stack","FunctionalTesting"})
 	public void verify_Stack_Applications_tryherebtn_Link()
 	{
 		 logger.info("Verification of try here button under Applications in stack link");
@@ -201,7 +201,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		 Assert.assertEquals(stakpage_obj.click_run(),"Run"); 
 	}
 	
-	@Test(priority=11,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+	@Test(priority=11,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven","Stack","FunctionalTesting"})//getting data provider from different class different package
 	public void verify_Stack_Applications_pythoncode(String code,String Result)
 	{
 		try
@@ -230,7 +230,7 @@ public class TC001_StackPageValidation extends BaseClass{
 		
 	 }
 	
-	@Test(priority=12)
+	@Test(priority=12,groups={"Stack","FunctionalTesting"})
 	public void verify_practiceQuestions_Link()
 	{
 		 logger.info("Practice Questions link validation");

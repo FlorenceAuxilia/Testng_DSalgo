@@ -16,7 +16,7 @@ import utilities.DataProviders;
 public class TC003_DataStructureIntroPageValidation  extends BaseClass{
 Actions act; 
 	
-	@BeforeMethod
+	@BeforeMethod(groups={"datastructure","FunctionalTesting"})
 	public void before_testcase_setup() {
 		    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 		    getstartedpage_obj.clickGetStarted();
@@ -30,7 +30,7 @@ Actions act;
 		    act=new Actions(driver.get());
 		
 	}
-	@Test(priority=1)
+	@Test(priority=1,groups={"datastructure","FunctionalTesting"})
 	public void verify_DataStructure__PageValidation()
 	{
 		
@@ -54,7 +54,7 @@ Actions act;
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,groups={"datastructure","FunctionalTesting"})
 	public void verify_DataStructure_TimeComplexity_Link()
 	{
 		
@@ -65,7 +65,7 @@ Actions act;
 		
 		
 	}
-	@Test(priority=4)
+	@Test(priority=3,groups={"datastructure","FunctionalTesting"})
 	public void verify_DataStructure_TimeComplexity_tryherebtn_Link()
 	{
 		 logger.info("Verification of  try here button under timeComplexity in DataStructure link");
@@ -75,7 +75,7 @@ Actions act;
 		 Assert.assertEquals(datastructurepage_obj.time_complexity_click_run(),"Run"); 
 	}
 	
-	@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+	@Test(priority=4,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven","datastructure","FunctionalTesting"})//getting data provider from different class different package
 	public void verify_DataStructure_TimeComplexity_pythoncode(String code,String Result)
 	{
 		try

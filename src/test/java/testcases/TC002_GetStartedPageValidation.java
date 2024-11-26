@@ -12,13 +12,13 @@ import testbase.BaseClass;
 public class TC002_GetStartedPageValidation extends BaseClass {
 Actions act; 
 	
-	@BeforeMethod
+	@BeforeMethod(groups={"GetStarted","FunctionalTesting"})
 	public void before_testcase_setup() {
 		    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 	}
 	
 	@Description("Test Successful GetStarted page Launch")
-	@Test(priority=1)
+	@Test(priority=1,groups={"GetStarted","FunctionalTesting"})
 	public void verify_Getstarted_PageValidation()
 	{
 		
@@ -42,7 +42,7 @@ Actions act;
 	}
 	
 	@Description("Testing Successful Home page launch")
-	 @Test(priority=2)
+	 @Test(priority=2,groups={"GetStarted","FunctionalTesting"})
 		public void verify_Getstarted_button()
 		{
 			
