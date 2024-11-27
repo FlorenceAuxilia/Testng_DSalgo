@@ -22,6 +22,7 @@
        <class name="testcases.TC008_LoginValidation"/>
       <class name="testcases.TC009_QueuePageValidation"/>
       <class name="testcases.TC010_TreePageValidation"/>
+      <class name="testcases.TC005_ArrayPageValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

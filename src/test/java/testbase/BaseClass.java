@@ -52,10 +52,12 @@ public DSAlgoQueuePom queuepage_obj;
 public DSAlgoTreePom treepage_obj;
 public DSAlgoGraphPom graphpage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
+public DSAlgoArrayPom arraypage_obj;
+public DSAlgoRegisterPom registerpage_obj;
 public ExtentReports extent;
 
 
-	@BeforeMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
+	@BeforeMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException
 	{
@@ -86,7 +88,7 @@ public ExtentReports extent;
 	}
 	
 
-	@AfterMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login"})
+	@AfterMethod(groups= {"Stack","GetStarted","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array"})
 	public void tearDown()
 	{
 		getDriver().quit();
