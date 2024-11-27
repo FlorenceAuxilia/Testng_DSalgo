@@ -10,9 +10,10 @@
     <classes>
       <class name="testcases.TC001_StackPageValidation"/>
       <class name="testcases.TC002_GetStartedPageValidation"/>
+       <class name="testcases.TC007_GraphPageValidation"/>
+       <class name="testcases.TC008_LoginValidation"/>
       <class name="testcases.TC009_QueuePageValidation"/>
       <class name="testcases.TC010_TreePageValidation"/>
-      <class name="testcases.TC008_LoginValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

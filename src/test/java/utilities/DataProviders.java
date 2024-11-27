@@ -68,6 +68,12 @@ public class DataProviders {
 	
 		return Treetypes;
 	}
+	
+	@DataProvider(name = "Graphtypes")
+	public String[] GraphTypes() {
+		String[] Graphtypes = { "Graph","Graph Representations" };
+		return Graphtypes;
+	}
 
 	
 }

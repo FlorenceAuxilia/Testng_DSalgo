@@ -50,6 +50,7 @@ public DSAlgoHomePom homepage_obj;
 public DSAlgoStackPom stakpage_obj;
 public DSAlgoQueuePom queuepage_obj;
 public DSAlgoTreePom treepage_obj;
+public DSAlgoGraphPom graphpage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
 public ExtentReports extent;
 
