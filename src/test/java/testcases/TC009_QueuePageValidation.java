@@ -34,12 +34,12 @@ public void before_testcase_setup() {
 	    signinpage_obj.clickLogin();
 	    queuepage_obj=new DSAlgoQueuePom(driver.get());
 	    act=new Actions(driver.get());
-	
+
 }
 
 
 
-@Test(priority=1)
+@Test(priority=1,groups={"Queue","FunctionalTesting"})
 public void verify_Queue_Getstartedbtn_PageValidation()
 {
 	logger.info("TC009_QueuePageValidation");
@@ -58,7 +58,7 @@ public void verify_Queue_Getstartedbtn_PageValidation()
 	 }
 	}
 
-@Test(priority=2)
+@Test(priority=2,groups={"Queue","FunctionalTesting"})
 public void verify_QueueOption_Dropdown_PageValidation()
 {
 	 logger.info("queue option Validation using Queue dropdown option");
@@ -77,7 +77,7 @@ public void verify_QueueOption_Dropdown_PageValidation()
 	}
 
 
-@Test(dataProvider="Queuetypes", priority = 3)
+@Test(dataProvider="Queuetypes",dataProviderClass=DataProviders.class, priority = 3,groups={"Queue","FunctionalTesting"})
 public void verify_Queue_Operations_Link(String type)
 {
 	
@@ -90,7 +90,7 @@ public void verify_Queue_Operations_Link(String type)
 
 
 
-@Test(dataProvider = "Queuetypes",priority=4)
+@Test(dataProvider = "Queuetypes",dataProviderClass=DataProviders.class,priority=4,groups={"Queue","FunctionalTesting"})
 public void verify_Queue_tryherebtn(String type)
 {
 	 logger.info("Verification of  try here button in " + type);
@@ -104,7 +104,7 @@ public void verify_Queue_tryherebtn(String type)
 
 
 
-@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"Queue","FunctionalTesting","DataDriven"})//getting data provider from different class different package
 public void verify_Queue_pythoncode(String code,String Result)
 {
 	try
@@ -140,7 +140,7 @@ public void verify_Queue_pythoncode(String code,String Result)
 	}
 }
 
-@Test(priority=6)
+@Test(priority=6,groups={"Queue","FunctionalTesting"})
 public void verify_practiceQuestions_Link()
 {
 	 logger.info("Practice Questions link validation");
@@ -150,12 +150,4 @@ public void verify_practiceQuestions_Link()
 	 Assert.assertTrue(false);
 }
 
-
-
-@DataProvider(name = "Queuetypes")
-public String[] QueueTypes() {
-	String[] Queuetypes = { "Implementation of Queue in Python", "Implementation using collections.deque",
-			"Implementation using array", "Queue Operations" };
-	return Queuetypes;
-}
 }

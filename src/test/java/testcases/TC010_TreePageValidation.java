@@ -32,7 +32,7 @@ public class TC010_TreePageValidation extends BaseClass{
 		
 	}
 
-	@Test
+	@Test(priority=1,groups={"Tree","FunctionalTesting"})
 	public void verify_Tree_Getstartedbtn_PageValidation()
 	{
 		logger.info("TC010_TreePageValidation");
@@ -50,7 +50,7 @@ public class TC010_TreePageValidation extends BaseClass{
 			Assert.assertTrue(false);
 		 }
 		}
-	@Test(priority=2)
+	@Test(priority=2,groups={"Tree","FunctionalTesting"})
 	public void verify_TreeOption_Dropdown_PageValidation()
 	{
 		 logger.info("Tree option Validation using Tree dropdown option");
@@ -69,7 +69,7 @@ public class TC010_TreePageValidation extends BaseClass{
 		}
 
 
-	@Test(dataProvider="Treetypes", priority = 3)
+	@Test(dataProvider="Treetypes",dataProviderClass=DataProviders.class, priority = 3,groups={"Tree","FunctionalTesting","Data Driven"})
 	public void verify_Tree_Operations_Link(String type)
 	{
 		
@@ -82,7 +82,7 @@ public class TC010_TreePageValidation extends BaseClass{
 
 
 
-	@Test(dataProvider = "Treetypes",priority=4)
+	@Test(dataProvider = "Treetypes",dataProviderClass=DataProviders.class,priority=4,groups={"Tree","FunctionalTesting","Data Driven"})
 	public void verify_Tree_Tryherebtn(String type)
 	{
 		 logger.info("Verification of  try here button in " + type);
@@ -96,7 +96,7 @@ public class TC010_TreePageValidation extends BaseClass{
 
 
 
-	@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"DataDriven"})//getting data provider from different class different package
+	@Test(priority=5,dataProvider="Pythoncode",dataProviderClass=DataProviders.class,groups={"Tree","FunctionalTesting","Data Driven"})//getting data provider from different class different package
 	public void verify_Tree_pythoncode(String code,String Result)
 	{
 		try
@@ -136,7 +136,7 @@ public class TC010_TreePageValidation extends BaseClass{
 	   
 	}
 
-	@Test(priority=6)
+	@Test(priority=6,groups={"Tree","FunctionalTesting"})
 	public void verify_practiceQuestions_Link()
 	{
 		 logger.info("Practice Questions link validation");
@@ -148,15 +148,7 @@ public class TC010_TreePageValidation extends BaseClass{
 
 
 
-	@DataProvider(name = "Treetypes")
-	public String[] Treetypes() {
-		String[] Treetypes = { 	"Overview of Trees","Terminologies","Types of Trees","Tree Traversals",
-								"Traversals-Illustration","Binary Trees","Types of Binary Trees",
-								"Implementation in Python" ,"Binary Tree Traversals","Implementation of Binary Trees",
-								"Applications of Binary trees","Binary Search Trees","Implementation Of BST"};
 	
-		return Treetypes;
-	}
 	
 
 
