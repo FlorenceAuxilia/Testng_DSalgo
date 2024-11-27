@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="DSAlgo Testng" thread-count="5" parallel="classes">
+<groups>
+		<run>
+			<include name="FunctionalTesting"/>
+		</run>
+	</groups>
+	
 <listeners>
 		<listener class-name="utilities.ExtentReportUtility"/>
 		<listener class-name="Analyzer.MyTransformer"/>
@@ -10,7 +16,11 @@
     <classes>
       <class name="testcases.TC001_StackPageValidation"/>
       <class name="testcases.TC002_GetStartedPageValidation"/>
-      <class name="testcases.TC009_QueuePageValidation"/>
+
+      <class name="testcases.TC003_DataStructureIntroPageValidation"/>
+      <class name="testcases.TC004_HomePageValidation"/>
+     	<class name="testcases.TC009_QueuePageValidation"/>
+
       <class name="testcases.TC010_TreePageValidation"/>
       <class name="testcases.TC008_LoginValidation"/>
     </classes>
