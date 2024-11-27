@@ -53,7 +53,7 @@ public DSAlgoTreePom treepage_obj;
 public DSAlgoGraphPom graphpage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
 public DSAlgoArrayPom arraypage_obj;
-public DSAlgoRegisterPom registerpage_obj;
+//public DSAlgoRegisterPom registerpage_obj;
 public ExtentReports extent;
 
 
