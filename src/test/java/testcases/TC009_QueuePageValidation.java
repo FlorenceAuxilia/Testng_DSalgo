@@ -22,7 +22,7 @@ public class TC009_QueuePageValidation extends BaseClass{
 	Actions act; 
 	
 
-@BeforeMethod
+@BeforeMethod (groups={"Queue","FunctionalTesting"})
 public void before_testcase_setup() {
 	    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 	    getstartedpage_obj.clickGetStarted();

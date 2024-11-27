@@ -17,7 +17,7 @@ import utilities.DataProviders;
 public class TC010_TreePageValidation extends BaseClass{
 	
 	Actions act; 
-	@BeforeMethod
+	@BeforeMethod (groups={"Tree","FunctionalTesting"})
 	public void before_testcase_setup() {
 		    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 		    getstartedpage_obj.clickGetStarted();
