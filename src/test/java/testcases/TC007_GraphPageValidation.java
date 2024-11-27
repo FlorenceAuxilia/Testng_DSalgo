@@ -17,7 +17,7 @@ public class TC007_GraphPageValidation extends BaseClass{
 	Actions act; 
 	
 
-@BeforeMethod
+@BeforeMethod (groups={"Graph","FunctionalTesting"})
 public void before_testcase_setup() {
 	    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 	    getstartedpage_obj.clickGetStarted();

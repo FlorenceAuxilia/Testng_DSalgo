@@ -21,7 +21,7 @@ import utilities.DataProviders;
 
 public class TC008_LoginValidation extends BaseClass{
 	
-	@BeforeMethod
+	@BeforeMethod (groups={"Login","FunctionalTesting"})
 	public void before_testcase_setup() {
 		    getstartedpage_obj=new DSAlgoGetStartedPom(driver.get());
 		    getstartedpage_obj.clickGetStarted();
