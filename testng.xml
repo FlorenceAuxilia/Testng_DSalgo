@@ -23,6 +23,7 @@
       <class name="testcases.TC009_QueuePageValidation"/>
       <class name="testcases.TC010_TreePageValidation"/>
       <class name="testcases.TC005_ArrayPageValidation"/>
+      <class name="testcases.TC006_RegisterPageValidation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
