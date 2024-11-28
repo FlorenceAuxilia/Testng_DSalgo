@@ -57,7 +57,7 @@ public DSAlgoRegisterPom registerpage_obj;
 public ExtentReports extent;
 
 
-	@BeforeMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array"})
+	@BeforeMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException
 	{
@@ -88,7 +88,7 @@ public ExtentReports extent;
 	}
 	
 
-	@AfterMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array"})
+	@AfterMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
 	public void tearDown()
 	{
 		getDriver().quit();
