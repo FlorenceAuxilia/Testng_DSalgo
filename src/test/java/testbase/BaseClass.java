@@ -24,8 +24,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -43,12 +45,19 @@ public static Logger logger;	//log4j
 public Properties p;
 public DSAlgoGetStartedPom getstartedpage_obj;
 public DSAlgoSignInPom signinpage_obj;
+public DSAlgoLoginPom loginpage_obj;
 public DSAlgoHomePom homepage_obj;
 public DSAlgoStackPom stakpage_obj;
+public DSAlgoQueuePom queuepage_obj;
+public DSAlgoTreePom treepage_obj;
+public DSAlgoGraphPom graphpage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
+public DSAlgoArrayPom arraypage_obj;
+public DSAlgoRegisterPom registerpage_obj;
 public ExtentReports extent;
 
-	@BeforeMethod
+
+	@BeforeMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException
 	{
@@ -70,12 +79,16 @@ public ExtentReports extent;
 		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		getDriver().get(p.getProperty("appurl"));
 		getDriver().manage().window().maximize();
+		
+		
+		
 	}
 	public static synchronized WebDriver getDriver() {
 		return driver.get();
 	}
 	
-	@AfterMethod
+
+	@AfterMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
 	public void tearDown()
 	{
 		getDriver().quit();
