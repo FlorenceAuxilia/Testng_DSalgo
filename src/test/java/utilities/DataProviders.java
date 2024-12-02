@@ -89,5 +89,27 @@ public class DataProviders {
 		}
 		return code;//return 2D array of login data's
 	}
+	@DataProvider(name = "Queuetypes")
+	public String[] QueueTypes() {
+		String[] Queuetypes = { "Implementation of Queue in Python", "Implementation using collections.deque",
+				"Implementation using array", "Queue Operations" };
+		return Queuetypes;
+	}
+	
+	@DataProvider(name = "Treetypes")
+	public String[] Treetypes() {
+		String[] Treetypes = { 	"Overview of Trees","Terminologies","Types of Trees","Tree Traversals",
+								"Traversals-Illustration","Binary Trees","Types of Binary Trees",
+								"Implementation in Python" ,"Binary Tree Traversals","Implementation of Binary Trees",
+								"Applications of Binary trees","Binary Search Trees","Implementation Of BST"};
+	
+		return Treetypes;
+	}
+	
+	@DataProvider(name = "Graphtypes")
+	public String[] GraphTypes() {
+		String[] Graphtypes = { "Graph","Graph Representations" };
+		return Graphtypes;
+	}
 	
 }
