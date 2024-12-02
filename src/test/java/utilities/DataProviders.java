@@ -90,7 +90,7 @@ public class DataProviders {
 		return code;//return 2D array of login data's
 	}
 	@DataProvider(name = "Queuetypes")
-	public String[] QueueTypes() {
+	public Object[] QueueTypes() {
 		String[] Queuetypes = { "Implementation of Queue in Python", "Implementation using collections.deque",
 				"Implementation using array", "Queue Operations" };
 		return Queuetypes;
