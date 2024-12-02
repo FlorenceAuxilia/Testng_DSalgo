@@ -8,21 +8,51 @@
   <test  thread-count="5" name="Chrometest">
   	<parameter name="browser" value="chrome"></parameter>
   <classes>
-  <class name="testcases.TC002_GetStartedPageValidation"/>
+  <class name="testcases.TC001_StackPageValidation"/>
+      <class name="testcases.TC002_GetStartedPageValidation"/>
+      <class name="testcases.TC003_DataStructureIntroPageValidation"/>
+      <class name="testcases.TC004_HomePageValidation"/>
+       <class name="testcases.TC007_GraphPageValidation"/>
+       <class name="testcases.TC008_LoginValidation"/>
+      <class name="testcases.TC009_QueuePageValidation"/>
+      <class name="testcases.TC010_TreePageValidation"/>
+      <class name="testcases.TC005_ArrayPageValidation"/>
+      <class name="testcases.TC006_RegisterPageValidation"/>
+      <class name="testcases.TC011_LinkedListPageValidation"/>
   </classes>
   </test> <!-- Test -->
   
    <test  thread-count="5" name="FirefoxTest">
   	<parameter name="browser" value="firefox"></parameter>
   <classes>
-  <class name="testcases.TC002_GetStartedPageValidation"/>
+  <class name="testcases.TC001_StackPageValidation"/>
+      <class name="testcases.TC002_GetStartedPageValidation"/>
+      <class name="testcases.TC003_DataStructureIntroPageValidation"/>
+      <class name="testcases.TC004_HomePageValidation"/>
+       <class name="testcases.TC007_GraphPageValidation"/>
+       <class name="testcases.TC008_LoginValidation"/>
+      <class name="testcases.TC009_QueuePageValidation"/>
+      <class name="testcases.TC010_TreePageValidation"/>
+      <class name="testcases.TC005_ArrayPageValidation"/>
+      <class name="testcases.TC006_RegisterPageValidation"/>
+      <class name="testcases.TC011_LinkedListPageValidation"/>
    </classes>
    </test>
   
   <test  thread-count="5" name="EdgeTest">
   	<parameter name="browser" value="edge"></parameter>
   <classes>
- <class name="testcases.TC002_GetStartedPageValidation"/>
+ <class name="testcases.TC001_StackPageValidation"/>
+      <class name="testcases.TC002_GetStartedPageValidation"/>
+      <class name="testcases.TC003_DataStructureIntroPageValidation"/>
+      <class name="testcases.TC004_HomePageValidation"/>
+       <class name="testcases.TC007_GraphPageValidation"/>
+       <class name="testcases.TC008_LoginValidation"/>
+      <class name="testcases.TC009_QueuePageValidation"/>
+      <class name="testcases.TC010_TreePageValidation"/>
+      <class name="testcases.TC005_ArrayPageValidation"/>
+      <class name="testcases.TC006_RegisterPageValidation"/>
+      <class name="testcases.TC011_LinkedListPageValidation"/>
    </classes>
    </test>
   
