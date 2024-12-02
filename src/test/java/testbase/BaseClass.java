@@ -54,10 +54,11 @@ public DSAlgoGraphPom graphpage_obj;
 public DSAlgoDataStructure_IntroductionPom datastructurepage_obj;
 public DSAlgoArrayPom arraypage_obj;
 public DSAlgoRegisterPom registerpage_obj;
+public DSAlgoLinkedListPom linkedListpage_obj;
 public ExtentReports extent;
 
 
-	@BeforeMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
+	@BeforeMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register","Linked List"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException
 	{
@@ -88,7 +89,7 @@ public ExtentReports extent;
 	}
 	
 
-	@AfterMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register"})
+	@AfterMethod(groups= {"Stack","GetStarted","Graph","Tree","Login","Queue","DataDriven","datastructure","FunctionalTesting","successful_login","Unsuccessful_login","Array","Register","Linked List"})
 	public void tearDown()
 	{
 		getDriver().quit();
